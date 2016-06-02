@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94673E8C1D00A82700BB94DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94673E8B1D00A82700BB94DE /* main.m */; };
+		94673E8F1D00A82700BB94DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94673E8E1D00A82700BB94DE /* AppDelegate.m */; };
+		94673E921D00A82700BB94DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94673E911D00A82700BB94DE /* ViewController.m */; };
+		94673E951D00A82700BB94DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94673E931D00A82700BB94DE /* Main.storyboard */; };
+		94673E981D00A82700BB94DE /* WordSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94673E961D00A82700BB94DE /* WordSearch.xcdatamodeld */; };
+		94673E9A1D00A82700BB94DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94673E991D00A82700BB94DE /* Assets.xcassets */; };
+		94673E9D1D00A82700BB94DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94673E9B1D00A82700BB94DE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94673E871D00A82700BB94DE /* WordSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94673E8B1D00A82700BB94DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94673E8D1D00A82700BB94DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94673E8E1D00A82700BB94DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94673E901D00A82700BB94DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		94673E911D00A82700BB94DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		94673E941D00A82700BB94DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94673E971D00A82700BB94DE /* WordSearch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WordSearch.xcdatamodel; sourceTree = "<group>"; };
+		94673E991D00A82700BB94DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94673E9C1D00A82700BB94DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94673E9E1D00A82700BB94DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94673E841D00A82700BB94DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94673E7E1D00A82700BB94DE = {
+			isa = PBXGroup;
+			children = (
+				94673E891D00A82700BB94DE /* WordSearch */,
+				94673E881D00A82700BB94DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94673E881D00A82700BB94DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94673E871D00A82700BB94DE /* WordSearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94673E891D00A82700BB94DE /* WordSearch */ = {
+			isa = PBXGroup;
+			children = (
+				94673E8D1D00A82700BB94DE /* AppDelegate.h */,
+				94673E8E1D00A82700BB94DE /* AppDelegate.m */,
+				94673E901D00A82700BB94DE /* ViewController.h */,
+				94673E911D00A82700BB94DE /* ViewController.m */,
+				94673E931D00A82700BB94DE /* Main.storyboard */,
+				94673E991D00A82700BB94DE /* Assets.xcassets */,
+				94673E9B1D00A82700BB94DE /* LaunchScreen.storyboard */,
+				94673E9E1D00A82700BB94DE /* Info.plist */,
+				94673E961D00A82700BB94DE /* WordSearch.xcdatamodeld */,
+				94673E8A1D00A82700BB94DE /* Supporting Files */,
+			);
+			path = WordSearch;
+			sourceTree = "<group>";
+		};
+		94673E8A1D00A82700BB94DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94673E8B1D00A82700BB94DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94673E861D00A82700BB94DE /* WordSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94673EA11D00A82700BB94DE /* Build configuration list for PBXNativeTarget "WordSearch" */;
+			buildPhases = (
+				94673E831D00A82700BB94DE /* Sources */,
+				94673E841D00A82700BB94DE /* Frameworks */,
+				94673E851D00A82700BB94DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordSearch;
+			productName = WordSearch;
+			productReference = 94673E871D00A82700BB94DE /* WordSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94673E7F1D00A82700BB94DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DetroitLabs;
+				TargetAttributes = {
+					94673E861D00A82700BB94DE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 94673E821D00A82700BB94DE /* Build configuration list for PBXProject "WordSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94673E7E1D00A82700BB94DE;
+			productRefGroup = 94673E881D00A82700BB94DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94673E861D00A82700BB94DE /* WordSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94673E851D00A82700BB94DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94673E9D1D00A82700BB94DE /* LaunchScreen.storyboard in Resources */,
+				94673E9A1D00A82700BB94DE /* Assets.xcassets in Resources */,
+				94673E951D00A82700BB94DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94673E831D00A82700BB94DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94673E921D00A82700BB94DE /* ViewController.m in Sources */,
+				94673E981D00A82700BB94DE /* WordSearch.xcdatamodeld in Sources */,
+				94673E8F1D00A82700BB94DE /* AppDelegate.m in Sources */,
+				94673E8C1D00A82700BB94DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94673E931D00A82700BB94DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94673E941D00A82700BB94DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94673E9B1D00A82700BB94DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94673E9C1D00A82700BB94DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94673E9F1D00A82700BB94DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94673EA01D00A82700BB94DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94673EA21D00A82700BB94DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WordSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.WordSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94673EA31D00A82700BB94DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WordSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.WordSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94673E821D00A82700BB94DE /* Build configuration list for PBXProject "WordSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94673E9F1D00A82700BB94DE /* Debug */,
+				94673EA01D00A82700BB94DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94673EA11D00A82700BB94DE /* Build configuration list for PBXNativeTarget "WordSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94673EA21D00A82700BB94DE /* Debug */,
+				94673EA31D00A82700BB94DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		94673E961D00A82700BB94DE /* WordSearch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				94673E971D00A82700BB94DE /* WordSearch.xcdatamodel */,
+			);
+			currentVersion = 94673E971D00A82700BB94DE /* WordSearch.xcdatamodel */;
+			path = WordSearch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 94673E7F1D00A82700BB94DE /* Project object */;
+}
